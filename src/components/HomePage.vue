@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="app-container">
       <Frame-Component></Frame-Component>
   </div>
 </template>
@@ -33,14 +33,20 @@ export default {
 </script>
 
 <style>
-.frame-btn {
-  width: 100px;
-  height: 100px;
-  margin-left: 8px
+img {
+  max-width: 100%;
+  width: auto;
 }
 
-.frame-img {
-  width: 500px;
-  height: 500px;
+.app-container {
+  max-width: 620px;  
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.frame-btn {
+  width: 100px;
+  height: auto;
+  margin-left: 8px
 }
 </style>
